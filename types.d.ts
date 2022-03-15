@@ -1,6 +1,6 @@
 import dgram = require("dgram");
 
-declare module "hot-shots" {
+declare module "@figma/hot-shots" {
   export type Tags = { [key: string]: string } | string[];
   export interface ClientOptions {
     bufferFlushInterval?: number;
